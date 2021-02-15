@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoTemplate from './components/TodoTemplate';
+import TodoTemplate from './TodoTemplate';
 
 const App = () => {
   return <TodoTemplate>Todo App을 만들자!</TodoTemplate>;
