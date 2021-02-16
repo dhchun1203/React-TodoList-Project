@@ -1,13 +1,8 @@
 import React from 'react';
-import TodoInsert from './components/TodoInsert';
 import TodoTemplate from './components/TodoTemplate';
 
 const App = () => {
-  return (
-    <TodoTemplate>
-      <TodoInsert />
-    </TodoTemplate>
-  );
+  return <MdAdd>Todo App을 만들자!</MdAdd>;
 };
 
 export default App;
